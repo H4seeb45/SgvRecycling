@@ -143,27 +143,10 @@ export default function Footer() {
         {/* Bottom Bar (Copyright) */}
         <div className="border-t border-slate-800 mt-16 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            {/* Left Side: Copyright Stack */}
-            <div>
-              <p className="text-slate-500 text-sm font-body">
-                © 2018-2025 SGV Recycle Ltd. All rights reserved.
-              </p>
-              {/* Subtle agency credit */}
-              <p className="mt-1 text-[10px] text-slate-600 font-body">
-                Designed and deployed by{" "}
-                <a
-                  href="https://binarybyte.co.uk"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-slate-500 transition-colors duration-300"
-                >
-                  Binary Byte
-                </a>
-                .
-              </p>
-            </div>
-            {/* Right Side: Legal Links */}
-            <div className="mt-4 md:mt-0 flex items-center gap-4 text-sm">
+            <p className="text-slate-500 text-sm font-body">
+              © 2018-2025 SGV Recycle Ltd. All rights reserved.
+            </p>
+            <div className="flex items-center gap-4 text-sm">
               <Link
                 href="/legal/privacy-policy"
                 className="text-slate-400 hover:text-[#7CC444] transition-colors font-body"
